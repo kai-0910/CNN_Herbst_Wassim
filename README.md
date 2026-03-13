@@ -1,7 +1,7 @@
 # Deep Learning Practice 1: CNNs for STL-10 Classification
 
 **Course:** Deep Learning (Master's degree in AI, 2025-2026).
-**Authors:** Kai HERBST & Bellani Wassim.
+**Authors:** Kai Herbst & Bellani Wassim.
 **Institution:** Universidade da Coruña.
 
 ## 📌 Project Overview
@@ -35,3 +35,7 @@ To ensure full compatibility and reproducibility, we have included a strict `req
 
 ```bash
 pip install -r requirements.txt
+
+```
+
+## Note for Linux users: You need to run 'sudo apt install graphviz' in the terminal for plot_model to work.
