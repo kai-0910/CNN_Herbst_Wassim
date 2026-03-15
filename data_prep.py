@@ -16,7 +16,7 @@ def preprocess_image(image, label, target_size=(96, 96)):
     
     return image, label
 
-def load_stl10_data(val_split_ratio=0.2, batch_size=32):
+def load_stl10_data(val_split_ratio=0.2, batch_size=64):
     """
     Loads STL-10, creates a validation split, applies preprocessing, 
     and returns batched tf.data.Dataset objects.
