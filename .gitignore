@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+.vscode/
+data/
+=======
 # Python
 __pycache__/
 *.py[cod]
@@ -13,3 +21,4 @@ models/*.h5
 
 # OS specific
 .DS_Store
+>>>>>>> e0f49af9d8ad63ef68a5712c50c0b121200524cb
