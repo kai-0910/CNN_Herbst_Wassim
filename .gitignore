@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
 .env
 .vscode/
 data/
+=======
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+>>>>>>> e0f49af9d8ad63ef68a5712c50c0b121200524cb
