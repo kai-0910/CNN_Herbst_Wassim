@@ -1,3 +1,15 @@
-.venv/
+# Python
 __pycache__/
-.ipynb_checkpoints/
+*.py[cod]
+.venv/
+
+# Datasets (The 10,000+ files!)
+tensorflow_datasets/
+data/
+
+# Models (Keep them local, too big for GitHub)
+models/*.keras
+models/*.h5
+
+# OS specific
+.DS_Store
