@@ -27,6 +27,12 @@ To maintain a clean and professional workflow, the machine learning pipeline is 
 * `02_Custom_CNN_Architectures.ipynb`: Contains experiments with more complex, custom-built architectures (Wide CNNs, custom ResNet blocks) and regularization tuning.
 * `03_Pretrained_Models.ipynb`: Implements transfer learning (Feature Extraction) using models pulled from Keras applications.
 * `04_Final_Results_and_Comparison.ipynb`: Aggregates the results from all previous notebooks, providing a reasoned comparison of advantages, disadvantages, and a final summary table.
+* `Part2_03.1_pretrained_CNNs_feature_extraction.ipynb`: Deep dive into feature extraction using pretrained CNNs (VGG16 and ResNet50V2).
+* `Part2_03.2_pretrained_CNNs_fine_tuning.ipynb`: Implements fine-tuning strategies on pretrained CNN architectures.
+* `data/`: This folder acts as the local repository for the STL-10 image dataset, isolating the raw and preprocessed data from the codebase.
+* `utils/`: This directory contains all custom Python modules designed to keep the main notebooks clean and readable. It is further subdivided into two specialized folders:
+  * `core/`: Houses the fundamental diagnostic and evaluation scripts, such as our custom `error_analysis.py` module.
+  * `plotting/`: Contains the visual helper functions (e.g., training history graphs and confusion matrices) to ensure consistent, standardized visual reporting across all our models.
 
 ## ⚙️ Requirements & Execution
 
